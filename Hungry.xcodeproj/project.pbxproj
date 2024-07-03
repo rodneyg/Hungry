@@ -14,6 +14,7 @@
 		4759A8842C35F1550085BB34 /* HungryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8832C35F1550085BB34 /* HungryTests.swift */; };
 		4759A88E2C35F1550085BB34 /* HungryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A88D2C35F1550085BB34 /* HungryUITests.swift */; };
 		4759A8902C35F1550085BB34 /* HungryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A88F2C35F1550085BB34 /* HungryUITestsLaunchTests.swift */; };
+		4759A89E2C35F3780085BB34 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 4759A89D2C35F3780085BB34 /* OpenAI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4759A89E2C35F3780085BB34 /* OpenAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +147,9 @@
 			dependencies = (
 			);
 			name = Hungry;
+			packageProductDependencies = (
+				4759A89D2C35F3780085BB34 /* OpenAI */,
+			);
 			productName = Hungry;
 			productReference = 4759A86E2C35F1530085BB34 /* Hungry.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 4759A8652C35F1530085BB34;
+			packageReferences = (
+				4759A89C2C35F3780085BB34 /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
 			productRefGroup = 4759A86F2C35F1530085BB34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -619,6 +627,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4759A89C2C35F3780085BB34 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4759A89D2C35F3780085BB34 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4759A89C2C35F3780085BB34 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4759A8662C35F1530085BB34 /* Project object */;
 }
