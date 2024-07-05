@@ -15,6 +15,18 @@
 		4759A88E2C35F1550085BB34 /* HungryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A88D2C35F1550085BB34 /* HungryUITests.swift */; };
 		4759A8902C35F1550085BB34 /* HungryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A88F2C35F1550085BB34 /* HungryUITestsLaunchTests.swift */; };
 		4759A89E2C35F3780085BB34 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 4759A89D2C35F3780085BB34 /* OpenAI */; };
+		4759A8A02C3647A90085BB34 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A89F2C3647A90085BB34 /* ImagePicker.swift */; };
+		4759A8A32C3875080085BB34 /* DietaryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8A22C3875080085BB34 /* DietaryFilter.swift */; };
+		4759A8A42C3875080085BB34 /* DietaryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8A22C3875080085BB34 /* DietaryFilter.swift */; };
+		4759A8A52C3875080085BB34 /* DietaryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8A22C3875080085BB34 /* DietaryFilter.swift */; };
+		4759A8A72C38752D0085BB34 /* IngredientManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8A62C38752D0085BB34 /* IngredientManagementView.swift */; };
+		4759A8AB2C3875430085BB34 /* SavedRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8AA2C3875430085BB34 /* SavedRecipesView.swift */; };
+		4759A8AF2C3875680085BB34 /* CodeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8AE2C3875680085BB34 /* CodeDataManager.swift */; };
+		4759A8B02C3875680085BB34 /* CodeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8AE2C3875680085BB34 /* CodeDataManager.swift */; };
+		4759A8B12C3875680085BB34 /* CodeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8AE2C3875680085BB34 /* CodeDataManager.swift */; };
+		4759A8B42C3875D40085BB34 /* HungryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8B22C3875D40085BB34 /* HungryModel.xcdatamodeld */; };
+		4759A8B52C3875D40085BB34 /* HungryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8B22C3875D40085BB34 /* HungryModel.xcdatamodeld */; };
+		4759A8B62C3875D40085BB34 /* HungryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4759A8B22C3875D40085BB34 /* HungryModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +58,12 @@
 		4759A8892C35F1550085BB34 /* HungryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4759A88D2C35F1550085BB34 /* HungryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryUITests.swift; sourceTree = "<group>"; };
 		4759A88F2C35F1550085BB34 /* HungryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4759A89F2C3647A90085BB34 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		4759A8A22C3875080085BB34 /* DietaryFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietaryFilter.swift; sourceTree = "<group>"; };
+		4759A8A62C38752D0085BB34 /* IngredientManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientManagementView.swift; sourceTree = "<group>"; };
+		4759A8AA2C3875430085BB34 /* SavedRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRecipesView.swift; sourceTree = "<group>"; };
+		4759A8AE2C3875680085BB34 /* CodeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDataManager.swift; sourceTree = "<group>"; };
+		4759A8B32C3875D40085BB34 /* HungryModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HungryModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +115,17 @@
 		4759A8702C35F1530085BB34 /* Hungry */ = {
 			isa = PBXGroup;
 			children = (
+				4759A8A62C38752D0085BB34 /* IngredientManagementView.swift */,
 				4759A8712C35F1530085BB34 /* HungryApp.swift */,
 				4759A8732C35F1530085BB34 /* ContentView.swift */,
 				4759A8752C35F1550085BB34 /* Assets.xcassets */,
 				4759A8772C35F1550085BB34 /* Hungry.entitlements */,
 				4759A8782C35F1550085BB34 /* Preview Content */,
+				4759A89F2C3647A90085BB34 /* ImagePicker.swift */,
+				4759A8A22C3875080085BB34 /* DietaryFilter.swift */,
+				4759A8AA2C3875430085BB34 /* SavedRecipesView.swift */,
+				4759A8AE2C3875680085BB34 /* CodeDataManager.swift */,
+				4759A8B22C3875D40085BB34 /* HungryModel.xcdatamodeld */,
 			);
 			path = Hungry;
 			sourceTree = "<group>";
@@ -267,7 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4759A8AB2C3875430085BB34 /* SavedRecipesView.swift in Sources */,
+				4759A8A02C3647A90085BB34 /* ImagePicker.swift in Sources */,
 				4759A8742C35F1530085BB34 /* ContentView.swift in Sources */,
+				4759A8AF2C3875680085BB34 /* CodeDataManager.swift in Sources */,
+				4759A8A32C3875080085BB34 /* DietaryFilter.swift in Sources */,
+				4759A8A72C38752D0085BB34 /* IngredientManagementView.swift in Sources */,
+				4759A8B42C3875D40085BB34 /* HungryModel.xcdatamodeld in Sources */,
 				4759A8722C35F1530085BB34 /* HungryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4759A8B52C3875D40085BB34 /* HungryModel.xcdatamodeld in Sources */,
+				4759A8B02C3875680085BB34 /* CodeDataManager.swift in Sources */,
+				4759A8A42C3875080085BB34 /* DietaryFilter.swift in Sources */,
 				4759A8842C35F1550085BB34 /* HungryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +318,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4759A88E2C35F1550085BB34 /* HungryUITests.swift in Sources */,
+				4759A8A52C3875080085BB34 /* DietaryFilter.swift in Sources */,
+				4759A8B12C3875680085BB34 /* CodeDataManager.swift in Sources */,
+				4759A8B62C3875D40085BB34 /* HungryModel.xcdatamodeld in Sources */,
 				4759A8902C35F1550085BB34 /* HungryUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -412,6 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -432,6 +470,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -441,7 +480,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -471,6 +509,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -480,7 +519,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -646,6 +684,19 @@
 			productName = OpenAI;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		4759A8B22C3875D40085BB34 /* HungryModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4759A8B32C3875D40085BB34 /* HungryModel.xcdatamodel */,
+			);
+			currentVersion = 4759A8B32C3875D40085BB34 /* HungryModel.xcdatamodel */;
+			path = HungryModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4759A8662C35F1530085BB34 /* Project object */;
 }
