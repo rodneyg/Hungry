@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var identifiedIngredients: [String] = []
     @State private var possibleRecipes: [Recipe] = []
     @State private var isProcessing = false
+    let openAI = OpenAI(apiToken: "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")
     
     let openAI = OpenAI(apiToken: "YOUR_API_KEY_HERE")
     
