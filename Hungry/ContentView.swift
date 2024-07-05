@@ -24,7 +24,6 @@ struct ContentView: View {
     }
     @State private var savedRecipes: [Recipe] = []
     
-    let openAI = OpenAI(apiToken: "")
     
     var filteredRecipes: [Recipe] {
         switch dietaryFilter {
