@@ -1,5 +1,7 @@
 # Hungry
 
+![IMG_0436](https://github.com/rodneyg/Hungry/assets/6868495/b1aff753-71ee-4778-910e-21789176e399)
+
 Hungry is a SwiftUI-based iOS application that helps users create recipes based on ingredients they have in their kitchen. The app uses computer vision and natural language processing to identify ingredients from photos and generate suitable recipes.
 
 ## Features
